@@ -20,7 +20,7 @@ public class ProductTest {
     public void checkProductPrice() {
         // I am making this test to fail
         Product aProduct = new Product("1", "DELL MONITOR", 180);
-        String price= Double.tostring(aProduct.getPrice());
+        String price= Double.toString(aProduct.getPrice());
         assertEquals("Check the price of the product", "180.0", price);
     }
 
